@@ -26,18 +26,18 @@
     }
 
         .grid-item {
-            background: white;
-            border-radius: 30px; /* More rounded corners */
-            overflow: hidden; /* Ensures border-radius applies correctly */
-            transition: transform 0.2s;
-            border: 5px solid black; /* Moves the border to the container */
-        }
+    background: white;
+    border-radius: 30px; /* Rounded corners */
+    overflow: hidden; /* Ensures image doesn't overflow */
+    transition: transform 0.2s;
+    border: 5px solid black; /* Moves the border to the container */
+}
 
-        .grid-item img {
-            width: 100%;
-            display: block;
-            border-radius: 28px; /* Slightly smaller to match the container */
-        }
+.grid-item img {
+    width: 100%;
+    display: block;
+    border-radius: 0; /* Remove border-radius from image */
+}
 
         .grid-item:hover {
             transform: scale(1.05);
