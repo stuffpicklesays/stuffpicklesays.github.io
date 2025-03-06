@@ -14,21 +14,20 @@
         h1 {
             margin-top: 20px;
         }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        .grid-item {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.2s;
-        }
-        .grid-item:hover {
+    .grid-item {
+        background: white;
+        border-radius: 20px; /* More rounded corners */
+        overflow: hidden; /* Ensures border-radius applies correctly */
+        transition: transform 0.2s;
+        border: 5px solid black; /* Moves the border to the container */
+    }
+    
+    .grid-item img {
+        width: 100%;
+        display: block;
+        border-radius: 15px; /* Slightly smaller to match the container */
+    }
+-item:hover {
             transform: scale(1.05);
         }
         .grid-item a {
