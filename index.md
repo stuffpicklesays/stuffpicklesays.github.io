@@ -1,4 +1,4 @@
-# Hi, I'm Nathaniel! 👋
+# Hi there, I'm Nathaniel! 👋
 
 
 ## 🚀 About Me
