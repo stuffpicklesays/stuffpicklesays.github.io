@@ -1,6 +1,6 @@
 // Static client-side implementation of the timetable calculator
 // Adjust this to select which timetable JSON to use
-const DEFAULT_TIMETABLE = '9s'; // matches timetables/9s.json
+const DEFAULT_TIMETABLE = '9k'; // matches timetables/9k.json
 
 const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
