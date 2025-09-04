@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static/styles.css">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable calculator!</title>
+</head>
+<body>
+  <style>
+  </style>
+    <ul>
+  <li><a href="/">Home</a></li>
+    </ul>
+
+    </style>
+      <h1>Timetable calculator</h1>
+      <h3>Select the week that it will be tomorrow</h3> <!-- Corrected the closing tag for h3 -->
+      <div class="blurry-background">
+      <button id="myButton1">Week 1</button>
+
+      <button id="myButton2">Week 2</button>
+      </div>
+      <div id="result" class="result"></div>
+
+
+
+  <br><br><br>
+  {%if False == True%}
+  <h3>Advanced mode for slightly less lazy people (but still lazy)</h3>
+  <select name="weekday" placeholder="Select">
+  <option value="Monday">Monday</option>
+<option value="Tuesday">Tuesday</option>
+<option value="Wednesday">Wednesday</option>
+    
+  </select>
+  <select name="week">
+    <option value="1">Week 1</option>
+    <option value="2">Week 2</option>
+  </select>
+  {%endif%}
+
+  <script src="static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "monday1": {
+    "subjects": ["Music", "MathsW", "Mandarin", "Art", "English", "Science"]
+  },
+  "tuesday1": {
+    "subjects": ["Languages", "English", "RPE", "ComputerScience"]
+  },
+  "wednesday1": {
+    "subjects": ["Latin", "PE kit", "Languages", "Science", "MathsW", "History"]
+  },
+  "thursday1": {
+    "subjects": ["Geography", "PE kit", "Mandarin", "History", "Games kit"]
+  },
+  "friday1": {
+    "subjects": ["Geography", "English", "Tech", "MathsL", "Science"]
+  },
+  "monday2": {
+    "subjects": ["ComputerScience", "Latin", "English", "PE kit", "Science", "Music", "MathsW"]
+  },
+  "tuesday2": {
+    "subjects": ["Geography", "Languages", "English", "Science"]
+  },
+  "wednesday2": {
+    "subjects": ["RPE", "Languages", "Science", "Art", "MathsW", "ComputerScience"]
+  },
+  "thursday2": {
+    "subjects": ["Mandarin", "Science", "English", "Music", "Games kit"]
+  },
+  "friday2": {
+    "subjects": ["Latin", "Greek", "History", "Tech", "MathsL"]
+  }
+}

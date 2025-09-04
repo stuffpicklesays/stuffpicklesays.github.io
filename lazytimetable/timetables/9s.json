@@ -1,0 +1,32 @@
+{
+  "monday1": {
+    "subjects": ["RPE", "Art", "English", "Computer Science", "Games"]
+  },
+  "tuesday1": {
+    "subjects": ["Tutorial", "Personal Development", "German", "Music", "Computer Science", "Art"]
+  },
+  "wednesday1": {
+    "subjects": ["Mathematics", "Art", "Physics", "Music"]
+  },
+  "thursday1": {
+    "subjects": ["Computer Science", "English", "Physics", "Chemistry", "Music", "Mathematics", "German"]
+  },
+  "friday1": {
+    "subjects": ["German", "English", "Biology", "Mathematics"]
+  },
+  "monday2": {
+    "subjects": ["Physical Education", "English", "Computer Science", "RPE", "Games"]
+  },
+  "tuesday2": {
+    "subjects": ["Tutorial", "Art", "Games", "Computer Science", "German"]
+  },
+  "wednesday2": {
+    "subjects": ["English", "Mathematics", "Physics", "Music", "Chemistry", "Biology"]
+  },
+  "thursday2": {
+    "subjects": ["German", "Mathematics", "Biology", "English", "Chemistry"]
+  },
+  "friday2": {
+    "subjects": ["English", "Physics", "Physical Education", "Biology", "Mathematics", "German", "Chemistry"]
+  }
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+.login-info {
+  float: right;
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  color: white;
+}
+
+.login-info a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #9900FF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.login-info a:hover {
+  background-color: #8f10e4;
+}
+.result {
+  position: relative;
+  border-radius: 20px;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 20px;
+  color: white;
+}
+
+.result::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212534e8;
+  border-radius: 20px;
+  filter: blur(3px);
+  z-index: -1;
+
+}
+div {
+  padding: 5px;
+}
+
+.active {
+  background-color: #9900FF;
+}
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;  
+  text-transform: uppercase;
+  background-color: #9900FF;
+  border: none;
+  color: white;
+  animation: shimmer 7s linear infinite;
+  background-image: linear-gradient(-70deg, 
+  rgba(255,255,255,0) 49%, 
+  rgba(255,255,255,.8) 50%, 
+  rgba(255,255,255,.8) 52%, 
+  rgba(255,255,255,0) 53%
+);
+  background-size: 400% 100%;
+  padding: 15px 32px;
+  margin:5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.h7 {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.h8 {
+  font-size: 8px;
+  margin-bottom: 5px;
+}
+
+.h9 {
+  font-size: 6px;
+  margin-bottom: 5px;
+}
+
+.h10 {
+  font-size: 4px;
+  margin-bottom: 5px;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background: #212534;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  color: #d1d1d1;
+  font-family: Helvetica, Arial;
+  background-image: url('https://i.ibb.co/HNBhs1X/polygon-scatter-haikei-2.png');
+  background-repeat: repeat-x; /* or repeat-y depending on the axis */
+  background-attachment: fixed;
+  background-size: auto; /* or your preferred size */
+  background-position: center; /* Optional: Adjust the position */
+
+}
+
+.card {
+  background: #191c29;
+  width: var(--card-width);
+}
+
+@keyframes shimmer{
+	0% {
+		background-position: 100% 50%;
+	}
+	30% {
+		background-position: 0% 50%;
+	}
+}
