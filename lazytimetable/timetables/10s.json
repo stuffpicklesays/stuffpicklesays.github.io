@@ -3,7 +3,7 @@
     "subjects": ["RPE", "Art", "English", "Computer Science", "Games"]
   },
   "tuesday1": {
-    "subjects": ["Tutorial", "Personal Development", "German", "Music", "Computer Science", "Art"]
+    "subjects": ["Personal Development", "German", "Music", "Computer Science", "Art"]
   },
   "wednesday1": {
     "subjects": ["Mathematics", "Art", "Physics", "Music"]
@@ -15,10 +15,10 @@
     "subjects": ["German", "English", "Biology", "Mathematics"]
   },
   "monday2": {
-    "subjects": ["Physical Education", "English", "Computer Science", "RPE", "Games"]
+    "subjects": ["Physical Education", "Computer Science", "RPE", "Games"]
   },
   "tuesday2": {
-    "subjects": ["Tutorial", "Art", "Games", "Computer Science", "German"]
+    "subjects": ["Art", "RPE","English", "Computer Science", "German"]
   },
   "wednesday2": {
     "subjects": ["English", "Mathematics", "Physics", "Music", "Chemistry", "Biology"]
