@@ -1,6 +1,6 @@
 // Static client-side implementation of the timetable calculator
 // Adjust this to select which timetable JSON to use
-const DEFAULT_TIMETABLE = '9s'; // matches timetables/9s.json
+const DEFAULT_TIMETABLE = '10s'; // matches timetables/9s.json
 
 const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
@@ -85,5 +85,6 @@ window.addEventListener('DOMContentLoaded', () => {
   if (btn1) btn1.addEventListener('click', () => runFunction('arg1'));
   if (btn2) btn2.addEventListener('click', () => runFunction('arg2'));
 });
+
 
 
