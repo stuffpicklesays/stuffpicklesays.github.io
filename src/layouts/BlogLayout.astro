@@ -26,23 +26,27 @@ const { frontmatter } = Astro.props;
 
 <style is:global>
   .terminal-header {
+    column-gap: 15px; 
+    row-gap: 5px;
     display: flex;
     align-items: center; 
     gap: 15px;
     margin-bottom: 25px;
+    flex-wrap: wrap;
   }
+
+
 
   .date {
     font-size: 0.85rem;
     color: #6b7280;
-    /*align to right hand side */
     margin-left: auto;
     
   }
   .title { margin: 0; }
   article p {
     margin-left: 2rem;
-    margin-bottom: 1rem; /* Keeps some space between paragraphs */
+    margin-bottom: 1rem;
   }
   article h1, article h2, article h3 {
     color: #FB8B24;
@@ -50,9 +54,20 @@ const { frontmatter } = Astro.props;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
-    article h2::before {
+  article h2::before {
     content: "> ";
-    color: #1EA65F; /* Your green color */
+    color: #1EA65F;
+  }
+  @media (max-width: 600px) {
+    .terminal-header {
+        margin-bottom: 0px;
+    }
+
+    .date {
+      flex-basis: 100%; 
+      margin-left: 0;
+      margin-top: 0px; 
+    }
   }
   
 </style>

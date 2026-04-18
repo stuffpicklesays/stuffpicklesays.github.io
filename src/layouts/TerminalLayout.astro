@@ -69,4 +69,18 @@
 				background: #FB8B24;
 				color: #141729;
 			}
+			pre {
+				max-width: 100%;
+				overflow-x: hidden;
+				overflow-y: hidden;
+			}
+
+			/* When the screen is 600px wide or smaller (phones)... */
+			@media (max-width: 600px) {
+				pre {
+				font-size: 0.6rem; /* Shrink the ASCII art so it fits */
+				line-height: 1;    /* Keep the vertical spacing tight */
+				}
+			}
+			
 </style>
