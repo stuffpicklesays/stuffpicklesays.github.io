@@ -1,17 +1,28 @@
 ---
-
+// src/pages/index.astro
+import TerminalLayout from '../layouts/TerminalLayout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<TerminalLayout>
+			<pre>
+████▄ ████▄ ▄███▄ ▄████ ▄█▀█▄ ████▄ ▄█▀▀▀    ███▄███▄ ▄█▀█▄ 
+██ ██ ██ ▀▀ ██ ██ ██ ██ ██▄█▀ ██ ▀▀ ▀███▄    ██ ██ ██ ██▄█▀ 
+██ ██ ██    ▀███▀ ▀████ ▀█▄▄▄ ██    ▄▄▄█▀ ██ ██ ██ ██ ▀█▄▄▄ 
+                     ██                                     
+                   ▀▀▀</pre>
+			<p class="entry">Welcome to nrogers.me v0.2.0</p>
+			<p class="entry">Last login: <time datetime="2026-04-18T17:29:00Z">April 18, 2026</time></p>
+			<br/>
+			<div class="prompt">
+  				<span class="user">guest@nrogers</span>:<span class="dir">~/portfolio</span>$ <span class="typing">ls -l projects/</span>
+			</div>
+			<ul class="file-list">
+				<li>-rw-r--r-- 1 guest guest 4096 Apr 18 16:00 <a href="/portfolio" class="file">portfolio.md</a></li>
+
+				<li>drwxr-xr-x 1 guest guest 4096 Apr 18 15:42 <a href="https://github.com/stuffpicklesays/" target="_blank">github_profile</a></li>
+			</ul>
+			<div class="prompt">
+  				<span class="user">guest@nrogers</span>:<span class="dir">~/portfolio</span>$ <span class="cursor">█</span>
+			</div>
+</TerminalLayout>
+

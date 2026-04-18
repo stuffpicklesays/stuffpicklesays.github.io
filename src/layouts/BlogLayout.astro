@@ -1,0 +1,58 @@
+---
+// src/layouts/BlogLayout.astro
+
+// src/layouts/TerminalLayout.astro
+import TerminalLayout from '../layouts/TerminalLayout.astro';
+
+const { frontmatter } = Astro.props;
+---
+
+<TerminalLayout title={frontmatter.title}>
+  
+    <div class="terminal-header">
+      <a href="/" class="back-button">[back]</a> 
+      <h1 class="title">{frontmatter.title}</h1>
+      <p class="date">[{frontmatter.date}]</p>
+    </div>  
+    
+
+
+
+  <article>
+      <slot /> 
+  </article>
+
+</TerminalLayout>
+
+<style is:global>
+  .terminal-header {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  .date {
+    font-size: 0.85rem;
+    color: #6b7280;
+    /*align to right hand side */
+    margin-left: auto;
+    
+  }
+  .title { margin: 0; }
+  article p {
+    margin-left: 2rem;
+    margin-bottom: 1rem; /* Keeps some space between paragraphs */
+  }
+  article h1, article h2, article h3 {
+    color: #FB8B24;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+    article h2::before {
+    content: "> ";
+    color: #1EA65F; /* Your green color */
+  }
+  
+</style>

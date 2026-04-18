@@ -1,0 +1,72 @@
+---
+// src/layouts/TerminalLayout.astro
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>nrogers.me</title>
+
+	</head>
+    <body>
+        <main>
+            <slot /> 
+        </main>
+    </body>
+</html>
+
+<style is:global>
+
+
+			body {
+				background: #141729;
+				color: #1EA65F;
+				font-family: "Source Code Pro", monospace;
+				font-optical-sizing: auto;
+				font-weight: 400;
+				font-style: normal;
+			}
+			main {
+				max-width: 800px;
+				margin: 2rem auto;
+				padding: 2rem;
+				outline: 1px solid #1EA65F;
+			}
+			.entry {
+				line-height: 0.8;
+
+			}
+
+			.user {
+				color: #FB8B24;
+			}
+			.file-list {
+				list-style: none;
+				padding-left: 0;
+
+			}
+			.cursor {
+				animation: blink 1s step-end infinite;
+			}
+
+			@keyframes blink {
+				0%, 100% { opacity: 1; }
+				50% { opacity: 0; }
+			}
+			a {
+				color: #FB8B24;
+				text-decoration: none;
+				transition: color 0.1s ease-out, background 0.1s ease-out;
+
+			}
+			a:hover {
+				background: #FB8B24;
+				color: #141729;
+			}
+</style>
