@@ -12,4 +12,4 @@ My old site was mostly AI generated and didn't feel like my own, so I decided to
 I was inspired by the recent TUI-style design movement and websites such as [cyberspace.online](https://cyberspace.online) and [adventofcode.com](https://adventofcode.com/)
 
 ## The code
-I used astro as my framework for creating the frontend. Despite never using it before, it was relatively simple to pick up, and really enjoyable to make.
+I used astro as my framework for creating the frontend. Despite never using it before, it was relatively simple to pick up, and really enjoyable to make overall.
