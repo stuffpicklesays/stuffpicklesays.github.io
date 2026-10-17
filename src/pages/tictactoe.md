@@ -17,3 +17,5 @@ This simple tic tac toe game was coded for a school programming project. The bac
 I learned how to store game states inside of a user's session so that keeping track of game states was simple.
 
 I learned how to use a minimax algorithm to create an unbeatable tic tac toe bot.
+
+I learned how to create structured tests for my modules.
